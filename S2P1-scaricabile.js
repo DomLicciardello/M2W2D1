@@ -65,22 +65,32 @@ if ((num <= 20)||(num >= 20)){
   Mostra i numeri da 0 a 10 (incluso) in ordine ascendente, ma evitando di mostrare i numeri 3 e 8 (suggerimento: ripassa l'uso di "continue").
 */
 
+/*
 for (let epicode = 0; epicode <= 10; epicode++){
-  if (epicode === 3 && 8) {
+  if (epicode === 3) || (epicode === 8)) {
     continue;
   }
   console.log (epicode)
-}
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+} 
+*/
 
 /* ESERCIZIO 4
   Scrivi un ciclo in JavaScript per iterare da 0 a 15. Per ciascun elemento, il ciclo deve controllare the il valore corrente sia pari o dispari, e mostrare il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+for (epicode = 0; epicode <= 10; epicode++) {
+    if (epicode === 0) {
+     console.log (epicode + ' è zero');
+    } else if (epicode % 2 === 0) {
+     console.log (epicode + ' è pari');
+   } else {
+     console.log (epicode + ' è dispari');
+   }
+}
+*/
 
-//ESERCIZI EXTRA NON OBBLIGATORI
+//ESERCIZI EXTRA NON OBBLIGATORI (NON SVOLTI CAUSA LAVORO)
 
 /* ESERCIZIO EXTRA 1
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
